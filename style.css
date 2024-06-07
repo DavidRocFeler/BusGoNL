@@ -2220,6 +2220,12 @@ footer {
 }
 
 @media (max-width: 360px) {
+
+    .secttion-background-blue p {
+        width: 70vw;
+    }
+
+
     #background-white-reverse-last .background-white-img8 {
         height: 26em;
         top: 472.7em;
