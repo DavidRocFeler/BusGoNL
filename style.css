@@ -2172,6 +2172,9 @@ footer {
     }
 
 
+    .secttion-background-blue p {
+        width: 70vw;
+    }
     .secttion-background-blue h2 {
         font-size: 2em;
     }
