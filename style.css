@@ -1833,8 +1833,8 @@ footer {
 
 
     .cover-photo h2 {
-        width: 80vw;
-        font-size: 2.5em;
+        width: 95vw;
+        font-size: 2.2em;
     }
 
 
@@ -1924,36 +1924,38 @@ footer {
         height: 109em;
     }
     .secttion-background-white-reverse-last #text1{
-        width: 90vw;
+        width: 100vw;
         padding-top: 8em;
     }
     .secttion-background-white-reverse-last #text1 h2 {
-        font-size: 2.2em;
-        width: 90vw;
-        padding-bottom: 0;
+        font-size: 2em;
+        width: 95vw;
+        margin: auto;
     }
     .secttion-background-white-reverse-last #text1 p {
-        width: 60vw;
+        width: 90vw;
         font-size: 1.2em;
         padding-bottom: 1.7em;
+        padding-top: 1.5em;
     }
     .secttion-background-white-reverse-last #text2{
-        width: 90vw;
+        width: 100vw;
         margin: auto;
         padding-top: 6em;
         padding-bottom: 7em; 
     }
     .secttion-background-white-reverse-last #text2 h2 {
-
-        font-size: 2.2em;
-        width: 90vw;
+        margin: auto;
+        font-size: 2em;
+        width: 95vw;
     }
     .secttion-background-white-reverse-last #text2 p {
-        width: 60vw;
+        width: 90vw;
         margin: auto;
         font-size: 1.2em;
         color: #818181;
         text-align: center;
+        padding-top: 1.5em;
     }
     #wsp {
         width: 90vw;
@@ -1998,13 +2000,13 @@ footer {
     }
     #wsp-icon {
         right: 2.7em;
-        top: 604.8em;
+        top: 603.8em;
     }
 }
 
 @media (max-width: 414px) {
     .cover-photo h2 {
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
  
 
@@ -2038,6 +2040,9 @@ footer {
     .secttion-background-white-reverse-last{
         height: 103em;
     }
+    .aside-secttion-background-white-reverse-last {
+        top: 5em;
+    }
     #background-white-reverse-last{
         height: 7em;
     }
@@ -2047,7 +2052,7 @@ footer {
     }
     #wsp-icon {
         right: 2em;
-        top: 596.3em;
+        top: 595.3em;
     }
 }
 
@@ -2069,7 +2074,9 @@ footer {
         top: 8em;
     }
       
-
+    .secttion-background-blue {
+        height: 80em
+    }
     .secttion-background-blue h2 {
         font-size: 1.8em;
     }
@@ -2113,7 +2120,15 @@ footer {
 
     }
 
-
+    .aside-secttion-background-white-reverse-last{
+        width: 100%;
+        height: auto; /* Ajusta la altura según tus necesidades */
+        margin: 0; /* Eliminar margen */
+        position: relative;
+       /* Ajusta este valor para superponer la imagen */
+        z-index: 1;
+        top: 4em;
+    }
     .secttion-background-white-reverse-last figure  img {
         width: 20em;
         height: auto;
@@ -2147,7 +2162,7 @@ footer {
 
 
     .cover-photo h2 {
-        font-size: 2.2em;
+        font-size: 2em;
     }
 
 
@@ -2184,11 +2199,14 @@ footer {
         top: 548em;
         height: 26em;
     }
+    .aside-secttion-background-white-reverse-last {
+        top: 9em;
+    }
     .secttion-background-white-reverse-last #text1 h2 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
     .secttion-background-white-reverse-last #text2 h2 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     #footer-logo img {
@@ -2196,7 +2214,7 @@ footer {
     }
     #wsp-icon {
         right: 2.5em;
-        top: 603.3em;
+        top: 593.3em;
     }
 }
 
@@ -2253,6 +2271,15 @@ footer {
         top: 555em;
         height: 26em;
     }
+    .aside-secttion-background-white-reverse-last {
+        top: 11em;
+    }
+    .secttion-background-white-reverse-last #text1 h2 {
+        font-size: 1.8em;
+    }
+    .secttion-background-white-reverse-last #text2 h2 {
+        font-size: 1.8em;
+    }
     .secttion-background-white-reverse-last{
         height: 107em;
     }
@@ -2271,7 +2298,7 @@ footer {
     }
     #wsp-icon {
         right: 2.5em;
-        top: 609.2em;
+        top: 598.2em;
     }
 }
 
