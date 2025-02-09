@@ -374,7 +374,7 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2.8em;
+    font-size: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 1; /* Por defecto visible */
     transition: opacity 0.3s ease; /* Transición suave */
@@ -387,22 +387,21 @@ header {
 
 .grid-class #grid-2 img {
     margin: 0;
-    filter: brightness();
+    filter: brightness(0.5);
     transition: filter 0.3s ease;
     box-sizing: border-box;
     padding: 3em 2em 3em 2em;
-    filter: saturate(1);
     width: 20em;
 }
 .grid-class #grid-2 img:hover {
-    filter: brightness(1.6);
+    filter: brightness(1);
 }
 .grid-class #grid-2 strong {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 2.8em;
+    font-size: 2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     opacity: 1; /* Por defecto visible */
     transition: opacity 0.3s ease; /* Transición suave */
@@ -413,14 +412,119 @@ header {
     display: none; /* Hace que el strong desaparezca al pasar el mouse por encima */
 }
 
+.grid-class #grid-3 img {
+    margin: 0;
+    filter: brightness(0.5);
+    transition: filter 0.3s ease;
+    box-sizing: border-box;
+    padding: 3em 2em 3em 2em;
+    width: 21.5rem;
+}
+.grid-class #grid-3 img:hover {
+    filter: brightness(1);
+}
+.grid-class #grid-3 strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1; /* Por defecto visible */
+    transition: opacity 0.3s ease; /* Transición suave */
+    font-weight:bold;
+    color: white;
+}
+#grid-3:hover strong {
+    display: none; /* Hace que el strong desaparezca al pasar el mouse por encima */
+}
+
+.grid-class #grid-4 img {
+    margin: 0;
+    filter: brightness(0.5);
+    transition: filter 0.3s ease;
+    box-sizing: border-box;
+    padding: 3em 2em 3em 2em;
+    width: 23rem;
+}
+.grid-class #grid-4 img:hover {
+    filter: brightness(1);
+}
+.grid-class #grid-4 strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1; /* Por defecto visible */
+    transition: opacity 0.3s ease; /* Transición suave */
+    font-weight:bold;
+    color: white;
+}
+#grid-4:hover strong {
+    display: none; /* Hace que el strong desaparezca al pasar el mouse por encima */
+}
+
+.grid-class #grid-5 img {
+    margin: 0;
+    filter: brightness(0.5);
+    transition: filter 0.3s ease;
+    box-sizing: border-box;
+    padding: 3em 2em 3em 2em;
+    width: 23rem;
+}
+.grid-class #grid-5 img:hover {
+    filter: brightness(1);
+}
+.grid-class #grid-5 strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1; /* Por defecto visible */
+    transition: opacity 0.3s ease; /* Transición suave */
+    font-weight:bold;
+    color: white;
+}
+#grid-5:hover strong {
+    display: none; /* Hace que el strong desaparezca al pasar el mouse por encima */
+}
+
+.grid-class #grid-6 img {
+    margin: 0;
+    filter: brightness(0.5);
+    transition: filter 0.3s ease;
+    box-sizing: border-box;
+    padding: 3em 2em 3em 2em;
+    width: 23rem;
+}
+.grid-class #grid-6 img:hover {
+    filter: brightness(1);
+}
+.grid-class #grid-6 strong {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 1; /* Por defecto visible */
+    transition: opacity 0.3s ease; /* Transición suave */
+    font-weight:bold;
+    color: white;
+}
+#grid-6:hover strong {
+    display: none; /* Hace que el strong desaparezca al pasar el mouse por encima */
+}
 
 .secttion-background-blue {
     width: 100%;
     height: fit-content; /* Ajusta la altura según tus necesidades */
-   
     margin: 0; /* Eliminar margen */
     position: relative;
-    top: ;
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -512,7 +616,6 @@ header {
     height: 101em; /* Ajusta la altura según tus necesidades */
     position: relative;
     z-index: -1;
-    top: ;
 }
 .div-secttion-background-white-reverse{
     width: 100%;
@@ -899,17 +1002,17 @@ footer {
         padding: 3em 2em 3em 2em;
     }
     .grid-class #grid-2 img {
-        width: 11em;
-        height: 11em;
-        margin: 0;
-        filter: brightness();
-        transition: filter 0.3s ease;
-        box-sizing: border-box;
-        padding: 3em 2em 3em 2em;
-        filter: saturate(1);
+        width: 18em;
+    }
+    .grid-class #grid-4 img {
+        width: 19em;
+    }
+    .grid-class #grid-5 img {
         width: 20em;
     }
-   
+    .grid-class #grid-6 img {
+        width: 19em;
+    }   
     
     .secttion-background-blue-font-container {
         width: 80%; 
@@ -1719,8 +1822,6 @@ footer {
     .secttion-background-white-reverse-last{
         height: 113em;
     }
-    .aside-secttion-background-white-reverse-last{
-    }
     .secttion-background-white-reverse-last #text1{
         width: 70vw;
         padding-top: 8em;
@@ -1754,8 +1855,6 @@ footer {
     }
     #wsp {
         width: 70vw;
-    }
-    #wsp a {   
     }
     .secttion-background-white-reverse-last figure {
         display: flex;
